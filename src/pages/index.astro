@@ -1,0 +1,53 @@
+---
+import Project from "@components/Project.astro";
+import Html from "@layouts/Html.astro";
+---
+
+<Html>
+    <header>
+        <h1>
+            <div class="mb-5 font-serif text-6xl">I'm Pcrab.</div>
+            <div class="ml-5">
+                <div>A Front-end Developer.</div>
+                <div>Love Coding and Study.</div>
+            </div>
+        </h1>
+    </header>
+    <div class="flex flex-wrap mt-5 items-center gap-4">
+        <a
+            href="https://blog.pcrab.xyz/"
+            class="flex items-center py-2 px-4 border-2 rounded-3 fg-hover border-base transition duration-300 border-hover"
+        >
+            <div class="i-tabler-article mr-3"></div>
+            <div>Blog</div>
+        </a>
+        <a
+            href="https://github.com/Pcrab"
+            class="flex items-center py-2 px-4 border-2 rounded-3 fg-hover border-base transition duration-300 border-hover"
+        >
+            <div class="i-tabler-brand-github mr-3"></div>
+            <div>Github</div>
+        </a>
+        <a
+            href="mailto:pcrab@pcrab.xyz"
+            class="flex items-center py-2 px-4 border-2 rounded-3 fg-hover border-base transition duration-300 border-hover"
+        >
+            <div class="i-tabler-mail mr-3"></div>
+            <div>Email</div>
+        </a>
+    </div>
+    <h2 class="my-5 text-3xl">Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 m-auto gap-4">
+        <Project
+            project="hexo-highlight-shiki"
+            desc="Highlight code with shiki in Hexo."
+            wip="true"
+            href="https://github.com/Pcrab/hexo-highlight-shiki"
+        />
+        <Project
+            project="hexo-theme-quark"
+            desc="A simple but elegant theme for Hexo."
+            href="https://github.com/Pcrab/hexo-theme-quark"
+        />
+    </div>
+</Html>

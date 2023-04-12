@@ -1,0 +1,57 @@
+{
+    "name": "portfolio",
+    "type": "module",
+    "version": "0.0.0",
+    "description": "My personal portfolio website",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "astro": "astro",
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "lint": "eslint \"src/**/*.{ts,tsx,astro}\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "hexo": {
+        "version": "7.0.0-rc1"
+    },
+    "dependencies": {
+        "@astrojs/sitemap": "^1.2.2",
+        "@astrojs/solid-js": "^2.1.0",
+        "@astrojs/tailwind": "^3.1.1",
+        "@fontsource/inter": "^4.5.15",
+        "@fontsource/newsreader": "^4.5.10",
+        "@iconify-json/tabler": "^1.1.72",
+        "@unocss/reset": "^0.51.4",
+        "astro": "^2.2.1",
+        "astro-robots-txt": "^0.4.1",
+        "dayjs": "^1.11.7",
+        "solid-js": "^1.7.3",
+        "unocss": "^0.51.4"
+    },
+    "devDependencies": {
+        "@astrojs/ts-plugin": "^0.4.4",
+        "@commitlint/cli": "^17.5.1",
+        "@commitlint/config-conventional": "^17.4.4",
+        "@pcrab/eslint-config": "^0.5.1",
+        "@pcrab/prettier-config": "^0.1.0",
+        "@types/node": "^18.15.11",
+        "@typescript-eslint/parser": "^5.58.0",
+        "commitizen": "^4.3.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.38.0",
+        "eslint-plugin-astro": "^0.26.1",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "husky": "^8.0.3",
+        "prettier": "^2.8.7",
+        "prettier-plugin-astro": "^0.8.0",
+        "typescript": "^5.0.4",
+        "yarpm": "^1.2.0"
+    }
+}
