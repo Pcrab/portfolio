@@ -40,8 +40,8 @@ dependencies:
 
 devDependencies:
   '@astrojs/ts-plugin':
-    specifier: ^0.4.4
-    version: 0.4.4
+    specifier: ^1.0.0
+    version: 1.0.0
   '@commitlint/cli':
     specifier: ^17.5.1
     version: 17.5.1
@@ -125,6 +125,10 @@ packages:
 
   /@astrojs/compiler@1.3.1:
     resolution: {integrity: sha512-xV/3r+Hrfpr4ECfJjRjeaMkJvU73KiOADowHjhkqidfNPVAWPzbqw1KePXuMK1TjzMvoAVE7E163oqfH3lDwSw==}
+
+  /@astrojs/compiler@1.4.1:
+    resolution: {integrity: sha512-aXAxapNWZwGN41P+Am/ma/2kAzKOhMNaY6YuvLkUHFv+UZkmDHD6F0fE1sQA2Up0bLjgPQa1VQzoAaii5tZWaA==}
+    dev: true
 
   /@astrojs/language-server@0.28.3:
     resolution: {integrity: sha512-fPovAX/X46eE2w03jNRMpQ7W9m2mAvNt4Ay65lD9wl1Z5vIQYxlg7Enp9qP225muTr4jSVB5QiLumFJmZMAaVA==}
@@ -227,10 +231,10 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/ts-plugin@0.4.4:
-    resolution: {integrity: sha512-KlVNAc9K9FEFiRexq00g0kRH9PeS8O8fTlojeD32KCmSbHqZN1kzTc4PBv+OeHzyP866FJeJi7F7Zg0ye+byJQ==}
+  /@astrojs/ts-plugin@1.0.0:
+    resolution: {integrity: sha512-GshS14DMkjEeOoh3yrXnEnkOovDvNKu9PtdwxKoV+DMo+ATIMr3iR9O+5dhLUy5DKlETJADVMeBTdwGtshKRFQ==}
     dependencies:
-      '@astrojs/compiler': 1.3.1
+      '@astrojs/compiler': 1.4.1
       '@jridgewell/trace-mapping': 0.3.18
       synckit: 0.8.5
     dev: true
@@ -1733,10 +1737,10 @@ packages:
     resolution: {integrity: sha512-n+fb6O40SM6sD36lGwgVIE3zeVQUMdl6ZHaHEjRI4zdaBu658XaAV1YDztF7Iga5kmeOxJYB87mcQ+lUnQs0Nw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 1.3.1
+      '@astrojs/compiler': 1.4.1
       '@typescript-eslint/scope-manager': 5.58.0
       '@typescript-eslint/types': 5.58.0
-      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@1.3.1)
+      astrojs-compiler-sync: 0.3.2(@astrojs/compiler@1.4.1)
       debug: 4.3.4
       eslint-visitor-keys: 3.4.0
       espree: 9.5.1
@@ -1828,13 +1832,13 @@ packages:
       - terser
     dev: false
 
-  /astrojs-compiler-sync@0.3.2(@astrojs/compiler@1.3.1):
+  /astrojs-compiler-sync@0.3.2(@astrojs/compiler@1.4.1):
     resolution: {integrity: sha512-q/8Z30WNpsktLKS5NdT/6QAF9Q/C4ucLldqUpHgvRhuj/6jkJyOQfapQxkTKp8MK4RjH9sSsClfrTIdk8JZlKw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@astrojs/compiler': '>=0.27.0'
     dependencies:
-      '@astrojs/compiler': 1.3.1
+      '@astrojs/compiler': 1.4.1
       synckit: 0.8.5
     dev: true
 
