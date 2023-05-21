@@ -24,7 +24,7 @@
         "@astrojs/sitemap": "^1.2.2",
         "@astrojs/solid-js": "^2.1.0",
         "@astrojs/tailwind": "^3.1.1",
-        "@fontsource/inter": "^4.5.15",
+        "@fontsource/inter": "^5.0.0",
         "@fontsource/newsreader": "^5.0.0",
         "@iconify-json/tabler": "^1.1.72",
         "@unocss/reset": "^0.51.4",
