@@ -9,20 +9,10 @@ interface Props {
 const { project, desc, wip, href } = Astro.props;
 ---
 
-<a
-    target="_blank"
-    href={href}
-    class="rounded-4 block p-4 fg-hover bg-block bg-hover transition-all duration-300"
->
+<a target="_blank" href={href} class="rounded-4 block p-4 fg-hover bg-block bg-hover transition-all duration-300">
     <div class="flex justify-between items-center mb-2">
         <div class="font-bold text-2xl">{project}</div>
-        <div
-            class={`${
-                wip
-                    ? "ml-2 border-neutral-600 dark:border-neutral-300 border rounded px-2"
-                    : "hidden"
-            }`}
-        >
+        <div class={`${wip ? "ml-2 border-neutral-600 dark:border-neutral-300 border rounded px-2" : "hidden"}`}>
             WIP
         </div>
     </div>

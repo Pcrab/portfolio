@@ -17,11 +17,5 @@
             "@utils/*": ["src/utils/*"]
         }
     },
-    "include": [
-        "src/**/*.astro",
-        "src/**/*.ts",
-        "src/**/*.tsx",
-        "astro.config.ts",
-        "uno.config.ts"
-    ]
+    "include": ["src/**/*.astro", "src/**/*.ts", "src/**/*.tsx", "astro.config.ts", "uno.config.ts"]
 }
